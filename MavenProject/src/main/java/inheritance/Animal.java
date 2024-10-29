@@ -5,7 +5,7 @@ public class Animal {
 	public void item()
 	{
 		System.out.println("it is a German shepherd");
-		System.out.println("number of legs"+legs);
+		System.out.println("number of legs is"+legs);
 	}
 
 }
