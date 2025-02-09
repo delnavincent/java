@@ -1,4 +1,4 @@
-kpackage aggregation;
+package aggregation;
 
 public class Book {
 	String bookName;

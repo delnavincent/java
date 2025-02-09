@@ -1,6 +1,6 @@
 package finalkeyword;
 
-public class Class2 extends {
+public class Class2{
 	public void method1()
 	{
 		

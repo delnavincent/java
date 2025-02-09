@@ -8,8 +8,16 @@ public class ThrowsChecked {
 		throw new IOException();
 	}
 
-	public static void main(String[] args) throws IOException {
-		m();
+	public static void main(String[] args) {
+		try
+		{
+			m();	
+		}
+		catch(IOException e)
+		{
+			System.out.println("IO exception occured");
+		}
+		
 
 	}
 

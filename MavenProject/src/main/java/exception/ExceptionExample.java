@@ -11,7 +11,7 @@ public class ExceptionExample {
 			arr[7]=67;
 			int result=s/0;
 		}
-		/*catch(ArithmeticException e)
+		catch(ArithmeticException e)
 		{
 			//System.out.println(e);
 			System.out.println("division by zero is not possible ");
@@ -24,7 +24,7 @@ public class ExceptionExample {
 		{
 			System.out.println("Parent exception ");
 			
-		}*/
+		}
 		finally
 		{
 			System.out.println("Finally block must executed");

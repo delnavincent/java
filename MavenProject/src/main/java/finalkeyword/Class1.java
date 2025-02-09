@@ -6,6 +6,7 @@ public final class Class1 {
 public Class1()
 {
 	B=20;
+	System.out.println(B);
 	
 }
 public final void method1()
@@ -15,7 +16,8 @@ public final void method1()
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Class1 obj=new Class1();
+		obj.method1();
 
 	}
 

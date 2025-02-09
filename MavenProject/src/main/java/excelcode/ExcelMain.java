@@ -10,6 +10,8 @@ public class ExcelMain {
 		
 			System.out.println(ExcelCode.readIntegerData(2, 0));
 			
+			System.out.print("done");
+			
 		
 	}
 
